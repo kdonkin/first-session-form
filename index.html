@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        label {
+            display: block;
+            margin: 1em 0;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin: 1em 0;
+        }
+
+    </style>
+</head>
+<body>
+    <form action= "">
+        <h1 id="title"> Get in touch</h1>
+
+<form id="survey-form">
+
+
+  <label>First Name
+  <input type="text" name="name" placeholder="Enter your first name" required> </input>
+</label>  
+
+<label>Surname 
+  <input type="text" name="surname" placeholder="Enter your Surname" required> </input>
+</label> 
+
+<label>Email
+    <input type="email" name="email" placeholder="Please type in your email here" required> </input>
+</label>
+
+<label >Message
+  <br>
+  <textarea name="instructions" rows="5" cols="30">
+  </textarea>
+</label>
+
+<h4>Where did you find us?</h4>
+
+<label>
+    Online
+    <input type="radio" id="black" name="color" value="blue">
+</label>
+<label>
+    Post
+    <input type="radio" id="black" name="color" value="blue">
+</label>
+<label>
+    Friend
+    <input type="radio" id="black" name="color" value="blue">
+</label>
+
+<h4>Are you happy with the service?</h4>
+
+    <select name="happiness">
+        <option value="very happy">very happy</option>
+        <option value="quite happy">quite happy</option>
+        <option value="not happy">not happy</option>
+    </select>
+
+
+
+  <input id="submit" type="submit" value="Submit">
+</form>
+
+    
+</body>
+</html>
